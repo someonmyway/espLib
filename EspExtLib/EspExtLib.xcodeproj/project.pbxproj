@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3517342A40EFF600A4F509 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886CF2A379CE8006399FF /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3517352A40F00200A4F509 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886CE2A379CE8006399FF /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3517362A40F00800A4F509 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886CD2A379CE8006399FF /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3517372A40F01100A4F509 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886C72A379CE8006399FF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3517382A40F01600A4F509 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886C62A379CE8006399FF /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3517392A40F01D00A4F509 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886C32A379CE8006399FF /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173A2A40F02400A4F509 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886C02A379CE8006399FF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173B2A40F02B00A4F509 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886BD2A379CE8006399FF /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173C2A40F03000A4F509 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886BC2A379CE8006399FF /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173D2A40F03500A4F509 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886BB2A379CE8006399FF /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173E2A40F03A00A4F509 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4886BA2A379CE8006399FF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35173F2A40F33000A4F509 /* AFSecurityPolicy.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886BA2A379CE8006399FF /* AFSecurityPolicy.h */; };
+		8A3517402A40F33000A4F509 /* AFNetworkReachabilityManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886BB2A379CE8006399FF /* AFNetworkReachabilityManager.h */; };
+		8A3517412A40F33000A4F509 /* AFURLSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886BC2A379CE8006399FF /* AFURLSessionManager.h */; };
+		8A3517422A40F33000A4F509 /* AFURLRequestSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886BD2A379CE8006399FF /* AFURLRequestSerialization.h */; };
+		8A3517432A40F33000A4F509 /* AFURLResponseSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886C02A379CE8006399FF /* AFURLResponseSerialization.h */; };
+		8A3517442A40F33000A4F509 /* AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886C32A379CE8006399FF /* AFNetworking.h */; };
+		8A3517452A40F33000A4F509 /* AFCompatibilityMacros.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886C62A379CE8006399FF /* AFCompatibilityMacros.h */; };
+		8A3517462A40F33000A4F509 /* AFHTTPSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886C72A379CE8006399FF /* AFHTTPSessionManager.h */; };
+		8A3517472A40F36600A4F509 /* GCDAsyncUdpSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886CD2A379CE8006399FF /* GCDAsyncUdpSocket.h */; };
+		8A3517482A40F36600A4F509 /* GCDAsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886CE2A379CE8006399FF /* GCDAsyncSocket.h */; };
+		8A3517492A40F36600A4F509 /* CocoaAsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886CF2A379CE8006399FF /* CocoaAsyncSocket.h */; };
 		8A4886732A379C2A006399FF /* EspExtLib.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A4886722A379C2A006399FF /* EspExtLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A48867B2A379C3C006399FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A48867A2A379C3C006399FF /* UIKit.framework */; };
 		8A48867D2A379C44006399FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A48867C2A379C44006399FF /* Foundation.framework */; };
@@ -473,28 +495,39 @@
 				8A7252E82A3CA34B009CC379 /* ESPAES.h in Headers */,
 				8A7252E92A3CA34B009CC379 /* ESP_NetUtil.h in Headers */,
 				8A7252EA2A3CA34B009CC379 /* ESP_ByteUtil.h in Headers */,
+				8A3517362A40F00800A4F509 /* GCDAsyncUdpSocket.h in Headers */,
 				8A7252EB2A3CA34B009CC379 /* ESPTools.h in Headers */,
 				8A7252EC2A3CA34B009CC379 /* ESP_CRC8.h in Headers */,
 				8A7252ED2A3CA34B009CC379 /* ESP_WifiUtil.h in Headers */,
 				8A7252F92A3CA34B009CC379 /* DDLog.h in Headers */,
 				8A7252FA2A3CA34B009CC379 /* DDAbstractDatabaseLogger.h in Headers */,
+				8A3517382A40F01600A4F509 /* AFCompatibilityMacros.h in Headers */,
 				8A7252FB2A3CA34B009CC379 /* DDFileLogger.h in Headers */,
+				8A3517352A40F00200A4F509 /* GCDAsyncSocket.h in Headers */,
 				8A7252FC2A3CA34B009CC379 /* DDMultiFormatter.h in Headers */,
 				8A7252FD2A3CA34B009CC379 /* DDContextFilterLogFormatter.h in Headers */,
 				8A7252FE2A3CA34B009CC379 /* DDDispatchQueueLogFormatter.h in Headers */,
 				8A7252FF2A3CA34B009CC379 /* DDTTYLogger.h in Headers */,
 				8A7253002A3CA34B009CC379 /* DDLog+LOGV.h in Headers */,
+				8A3517392A40F01D00A4F509 /* AFNetworking.h in Headers */,
 				8A7253012A3CA34B009CC379 /* DDASLLogger.h in Headers */,
+				8A35173D2A40F03500A4F509 /* AFNetworkReachabilityManager.h in Headers */,
 				8A7253022A3CA34B009CC379 /* ESPUDPSocketClient.h in Headers */,
 				8A7253032A3CA34B009CC379 /* ESPUDPSocketServer.h in Headers */,
+				8A3517342A40EFF600A4F509 /* CocoaAsyncSocket.h in Headers */,
+				8A35173C2A40F03000A4F509 /* AFURLSessionManager.h in Headers */,
+				8A35173A2A40F02400A4F509 /* AFURLResponseSerialization.h in Headers */,
 				8A7253042A3CA34B009CC379 /* ESPDataCode.h in Headers */,
 				8A7253052A3CA34B009CC379 /* ESPDatumCode.h in Headers */,
 				8A7253062A3CA34B009CC379 /* ESPGuideCode.h in Headers */,
 				8A7253072A3CA34B009CC379 /* ESPTouchGenerator.h in Headers */,
 				8A7253082A3CA34B009CC379 /* ESPTouchTaskParameter.h in Headers */,
+				8A35173B2A40F02B00A4F509 /* AFURLRequestSerialization.h in Headers */,
 				8A7253092A3CA34B009CC379 /* ESPTouchTask.h in Headers */,
 				8A72530A2A3CA34B009CC379 /* ESPTouchResult.h in Headers */,
 				8A72530B2A3CA34B009CC379 /* ESPTouchDelegate.h in Headers */,
+				8A35173E2A40F03A00A4F509 /* AFSecurityPolicy.h in Headers */,
+				8A3517372A40F01100A4F509 /* AFHTTPSessionManager.h in Headers */,
 				8A72530C2A3CA34B009CC379 /* ESPProvisioningResult.h in Headers */,
 				8A72530D2A3CA34B009CC379 /* ESPProvisioningParams.h in Headers */,
 				8A72530E2A3CA34B009CC379 /* ESPPacketUtils.h in Headers */,
@@ -575,6 +608,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4887352A379CE9006399FF /* DDTTYLogger.h in Sources */,
+				8A3517472A40F36600A4F509 /* GCDAsyncUdpSocket.h in Sources */,
+				8A3517482A40F36600A4F509 /* GCDAsyncSocket.h in Sources */,
+				8A3517492A40F36600A4F509 /* CocoaAsyncSocket.h in Sources */,
 				8A48870E2A379CE9006399FF /* ESP_NetUtil.h in Sources */,
 				8A4886EB2A379CE9006399FF /* ESPDataCode.h in Sources */,
 				8A4886ED2A379CE9006399FF /* ESPGuideCode.h in Sources */,
@@ -582,6 +618,14 @@
 				8A4887102A379CE9006399FF /* ESPTools.h in Sources */,
 				8A4887012A379CE9006399FF /* ESPProvisioningUDP.h in Sources */,
 				8A4886F62A379CE9006399FF /* ESPTouchTask.h in Sources */,
+				8A35173F2A40F33000A4F509 /* AFSecurityPolicy.h in Sources */,
+				8A3517402A40F33000A4F509 /* AFNetworkReachabilityManager.h in Sources */,
+				8A3517412A40F33000A4F509 /* AFURLSessionManager.h in Sources */,
+				8A3517422A40F33000A4F509 /* AFURLRequestSerialization.h in Sources */,
+				8A3517432A40F33000A4F509 /* AFURLResponseSerialization.h in Sources */,
+				8A3517442A40F33000A4F509 /* AFNetworking.h in Sources */,
+				8A3517452A40F33000A4F509 /* AFCompatibilityMacros.h in Sources */,
+				8A3517462A40F33000A4F509 /* AFHTTPSessionManager.h in Sources */,
 				8A4887292A379CE9006399FF /* DDLog.h in Sources */,
 				8A4886FE2A379CE9006399FF /* ESPProvisioner.h in Sources */,
 				8A4887022A379CE9006399FF /* ESPProvisioningListeners.h in Sources */,
@@ -779,6 +823,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"EspExtLib/**",
+					"EspExtLib/EspExtLib/Common/CocoaAsyncSocket/GCD/**",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -813,6 +861,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"EspExtLib/**",
+					"EspExtLib/EspExtLib/Common/CocoaAsyncSocket/GCD/**",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
